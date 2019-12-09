@@ -1,6 +1,6 @@
 {
   "name": "infoods",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Kit by International Network of Food Data Systems (INFOODS).",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/infoods/infoods/issues"
   },
-  "homepage": "https://github.com/infoods/infoods#readme"
+  "homepage": "https://github.com/infoods/infoods#readme",
+  "dependencies": {
+    "@infoods/tagnames": "^1.0.1"
+  }
 }
