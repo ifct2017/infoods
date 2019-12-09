@@ -13,6 +13,7 @@ Methods:
 > You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].
 
+[Kit]: https://en.wikipedia.org/wiki/Kit_(of_components)
 [INFOODS]: http://www.fao.org/infoods/infoods/en/
 [Tagnames]: https://github.com/infoods/tagnames/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io

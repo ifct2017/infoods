@@ -1,6 +1,6 @@
 {
   "name": "infoods",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Kit by International Network of Food Data Systems (INFOODS).",
   "main": "index.js",
   "scripts": {
