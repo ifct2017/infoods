@@ -1,13 +1,9 @@
 {
   "name": "@nodef/infoods",
-  "version": "0.3.3",
+  "version": "0.3.8",
   "license": "AGPL-3.0",
   "exports": "./index.ts",
   "publish": {
-    "exclude": [
-      "*.sh",
-      "**/assets/",
-      "**/sources/"
-    ]
+    "exclude": ["*.sh", "**/assets/", "**/sources/"]
   }
 }
