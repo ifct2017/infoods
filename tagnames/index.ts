@@ -1,7 +1,6 @@
 // Copyright (C) 2025 Subhajit Sahu
 // SPDX-License-Identifier: AGPL-3.0-or-later
 // See LICENSE for full terms
-import * as path from "jsr:@std/path@1.0.8";
 import * as csv  from "jsr:@std/csv@1.0.5";
 import lunr from "npm:lunr@2.3.9";  // @deno-types="npm:@types/lunr@2.3.7"
 import {type RowData, type SetupTableOptions, setupTable} from "jsr:@nodef/extra-sql@0.1.2";
@@ -70,7 +69,7 @@ function setupIndex(corpus: Map<string, Tagname>) {
     this.field('name', {boost: 2});
     this.field('synonyms', {boost: 2});
     // this.pipeline.remove(lunr.stopWordFilter);
-    for(const {code, name, synonyms} of corpus?.values() || [])
+    for (const {code, name, synonyms} of corpus?.values() || [])
       this.add({code, name: name.replace(/\W/g, ' '), synonyms: synonyms.replace(/\W/g, ' ')});
   });
 }
